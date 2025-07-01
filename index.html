@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>jda</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="linux-wrapper">
+    <div class="header-style">
+      <span class="window-rgb">
+      <span class="title">jestian@alcasabas:~</span>
+      <span class="window-controls">
+        <button class="btn" onclick="minimizeTab()" title="Reload the page"><i class="fa-solid fa-circle-minus" style="color: #2f343d;"></i></button>
+        <i class="fa-solid fa-circle-stop" style="color: #2f343d;"></i>
+        <button class="btn" onclick="closeTab()" title="Exit"><i class="fa-solid fa-circle-xmark" style="color: #af3b3f;"></i></button>
+      </span>
+    </div>
+    <span id="element"></span>
+    <div id="terminal" class="terminal-output"></div>
+    <div class="prompt">@jestian-alcasabas/portfolio:~$ <span class="caret"></span><input type="text" class="input" id="commandInput" autofocus placeholder="type command here..." /></div>
+  </section>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

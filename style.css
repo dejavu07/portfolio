@@ -1,0 +1,229 @@
+
+body {
+    margin-top: 115px;
+    font-family: 'Ubuntu Mono', monospace;
+    background-image: url(wallpaper.jpg);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+    filter: blur(50%);
+
+}
+
+.First {
+    font-size: large;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-weight: normal;
+}
+.sudo {
+    font-size: large;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+}
+.intro {
+    font-size: large;
+    margin-left: 5px;
+    line-height: 2;
+}
+#element {
+    font-size: large;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    caret-color: transparent;
+}
+#linux-wrapper{
+    margin: 0 auto;
+    width: 1115px;
+    height: 630px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(142, 141, 141);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 10, 36);
+    border-radius: 5px;
+    overflow: auto;
+    flex-shrink: 0;
+    position: sticky;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.header-style {
+    position: relative;
+    background-color: #6c6b6b;
+    padding: 5px 10px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    height: 30px;
+    display: flex;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    pointer-events: none;
+    font-size: x-large;
+}
+
+p {
+    color: white;
+    font-size: large;
+    line-height: 0%;
+    margin-left: 3px;
+}
+
+.text-green{
+    color: rgb(78, 154, 6);
+}
+
+.text-purple{
+    color: purple;
+}
+
+.text-blue {
+    color: rgb(43, 43, 238);
+}
+
+.sudo-format {
+    font-size: large;
+}
+.prompt {
+    color: rgb(78, 154, 6);
+    font-size: large;
+    margin-left: 5px;
+
+}
+
+.window-controls {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 30px;
+}
+
+.window-controls i {
+    cursor: pointer;
+}
+.fa-circle-minus {
+    font-size: x-large;
+}
+
+.fa-circle-stop {
+    font-size: x-large;
+}
+
+.fa-circle-xmark {
+    font-size: x-large;
+}
+
+.input {
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+    outline: none;
+    font-size: large;
+    caret-color: transparent;
+}
+
+.input::placeholder {
+    color: gray;
+}
+
+.command-output {
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+
+.color-text li {
+    color: white;
+}
+
+.About-me {
+    font-size: x-large;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.terminal-output {
+    color: #e0e0e0;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.help-format {
+    font-size: large;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #3465A4;
+    word-spacing: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.about-format {
+    font-size: large;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    margin-left: 5px;
+}
+
+.contact-format {
+    font-size: large;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    margin-left: 5px;
+}
+
+.project-format {
+    font-size: large;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+}
+
+.skill-format {
+    font-size: large;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    margin-left: 5px;
+}
+
+.btn {
+    border: transparent;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.caret {
+    display: inline-block;
+    width: 10px;
+    height: 1em;
+    background-color: #fff;
+    margin-left: 2px;
+    animation: blink 1s steps(1) infinite;
+    vertical-align: bottom;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    50.01%, 100% { opacity: 0; }
+}
+
